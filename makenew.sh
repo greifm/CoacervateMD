@@ -17,7 +17,7 @@ do
         gmx editconf -f $ii -bt dodecahedron -c -d $sizeofbox -o out_${out}.gro
         let out+=1
     else
-        gmx insert-molecules -f out_${filein}.gro -try 5000 -ci $ii -nmol 1 -o out_${out}.gro 
+        gmx insert-molecules -f out_${filein}.gro -try 500 -ci $ii -nmol 1 -o out_${out}.gro 
         let out+=1; let filein+=1
     fi
 done
