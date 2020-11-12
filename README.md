@@ -12,3 +12,5 @@ minimisation is an automatic minimisation script: it stores files in one line, t
 postprocessing and postprocessingions are very loose, ugly, uncommented scripts: they exist purely for reference if there is any confusion in the methodology
 
 a final report will be added at some point and will give context to this repo
+
+LICENCE avaliable on request
